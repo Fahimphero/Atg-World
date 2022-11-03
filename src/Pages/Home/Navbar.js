@@ -34,7 +34,7 @@ const Navbar = () => {
                             <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" className='border-0 bg-light'>    <h5 className='m-0'>Create a acount. <span className='text-primary'>Its free! <span><img src={dropdown} alt="" /></span> </span></h5></button>
                         </div>
                         <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="my-5  mx-auto responsive-modal user-name">
+                            <div class="my-5  mx-auto responsive-modal modal-dialog modal-dialog-centered user-name">
                                 <div class="modal-content ">
                                     <div style={{ backgroundColor: '#EFFFF4', color: '#008A45' }} class="modal-header">
                                         <h5 class="user-name modal-title " id="staticBackdropLabel">Let's learn share and inspire each other with our passion for computer engineering.Sign up now</h5>
